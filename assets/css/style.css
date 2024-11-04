@@ -131,6 +131,26 @@ header ul li:nth-of-type(3) {
   transform: translateY(-50%);
 }
 
+
+/* Style de base pour l'icône */
+.input-container .fa-solid {
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.3s; 
+}
+
+/* Effet de survol pour l'icône */
+.input-container .fa-solid:hover {
+  color: #4d5fd6; 
+  transform: scale(1.2); 
+}
+
+
+
+
+
+
+
 #s-FAQ {
   padding: 100px;
 }
