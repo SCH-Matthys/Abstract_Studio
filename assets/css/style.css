@@ -1,0 +1,194 @@
+@font-face {
+  font-family: Noto;
+  src: url(../fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+@font-face {
+  font-family: Noto-Light;
+  src: url(../fonts/Noto_Sans/NotoSans-Light.ttf);
+}
+@font-face {
+  font-family: Noto-Bold;
+  src: url(../fonts/Noto_Sans/NotoSans-Bold.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.btn {
+  transition: 0.2s;
+  padding: 6px 20px;
+  border: solid 1px white;
+  border-radius: 6px;
+  color: white;
+}
+
+.btn-blue {
+  transition: 0.2s;
+  padding: 6px 20px;
+  border: solid 1px white;
+  border-radius: 6px;
+  color: white;
+  border: #4d5fd6;
+  background-color: #4d5fd6;
+}
+.btn-blue:hover {
+  background-color: #3d4caa;
+}
+
+.btn-grey {
+  transition: 0.2s;
+  padding: 6px 20px;
+  border: solid 1px white;
+  border-radius: 6px;
+  color: white;
+  border: solid 1px white;
+  background-color: #1a1a1a;
+}
+.btn-grey:hover {
+  background-color: white;
+  color: black;
+}
+
+body {
+  font-family: Noto;
+}
+
+header {
+  background-color: #000000;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  padding: 20px 64px;
+}
+header ul > a > img {
+  padding-top: 5px;
+  padding-right: 8px;
+  width: 100px;
+  height: 32px;
+}
+header ul li {
+  padding: 0px 8px;
+}
+header ul li a {
+  color: white;
+}
+header ul li:nth-of-type(1) {
+  margin-right: auto;
+}
+header ul li:nth-of-type(1) a {
+  padding: 0px 16px;
+  border-left: solid 1px white;
+  transition: 0.2s;
+}
+header ul li:nth-of-type(1) a:hover {
+  color: lightgrey;
+}
+header ul li:nth-of-type(2) {
+  letter-spacing: 0.2px;
+}
+header ul li:nth-of-type(3) {
+  letter-spacing: 0.2px;
+}
+
+#s-help {
+  background-color: #dadbf2;
+  padding: 100px;
+}
+#s-help h1 {
+  text-align: center;
+  font-size: 72px;
+  font-family: Noto-Light;
+  padding-bottom: 32px;
+}
+#s-help .input-container {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+#s-help .input-container input {
+  width: 100%;
+  border: solid 1px gray;
+  border-radius: 4px;
+  height: 48px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding-left: 16px;
+}
+#s-help .input-container input::placeholder {
+  color: gray;
+}
+#s-help .input-container i {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 100px;
+}
+footer > ul {
+  font-family: Noto-Bold;
+  font-size: 18px;
+  padding-bottom: 80px;
+}
+footer > ul li:nth-of-type(1) {
+  padding-top: 16px;
+}
+footer > ul li {
+  font-family: Noto;
+  font-size: 15px;
+  padding: 2px 0px;
+}
+footer > ul li a {
+  color: white;
+  transition: 0.2s;
+}
+footer > ul li a:hover {
+  color: #4d5fd6;
+}
+footer > div:nth-of-type(1) ul {
+  font-family: Noto-Bold;
+}
+footer > div:nth-of-type(1) ul li:nth-of-type(1) {
+  padding-top: 16px;
+}
+footer > div:nth-of-type(1) ul li {
+  font-family: Noto;
+  font-size: 15px;
+  padding: 2px 0px;
+}
+footer > div:nth-of-type(1) ul li a {
+  color: white;
+  transition: 0.2s;
+}
+footer > div:nth-of-type(1) ul li a:hover {
+  color: #4d5fd6;
+}
+footer > div:nth-of-type(1) ul li p {
+  font-family: Noto-Bold;
+  padding-top: 16px;
+}
+footer > div:nth-of-type(2) {
+  margin-top: auto;
+}
+footer > div:nth-of-type(2) p {
+  font-size: 12px;
+}
+footer > div:nth-of-type(2) img {
+  width: 25px;
+  height: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */

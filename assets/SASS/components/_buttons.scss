@@ -1,0 +1,25 @@
+@use "../abstract/mixins" as mix;
+@use "../abstract/variables" as var;
+
+.btn{
+    @include mix.btn;
+}
+
+.btn-blue{
+    @include mix.btn;
+    border: var.$blue-color;
+    background-color: var.$blue-color;
+    &:hover{
+        background-color: #3d4caa
+    }
+}
+
+.btn-grey{
+    @include mix.btn;
+    border: solid 1px white;
+    background-color: var.$grey-color;
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}
