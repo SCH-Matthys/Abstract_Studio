@@ -1,0 +1,40 @@
+@use "../../base/typography";
+@use "../../abstract/variables" as var;
+
+#s-FAQ{
+    padding: 100px;
+    >div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        >article{
+            display: flex;
+            // border: solid 1px black;
+            width: 35%;
+            height: 175px;
+            padding-bottom: 64px;
+            >div>img{
+                height: 60px;
+                width: 60px;
+                padding: 32px;
+            }
+            h3{
+                font-family: Noto-Bold;
+                padding-bottom: 16px;
+            }
+            p{
+                width: 68%;
+                padding-bottom: 16px;
+            }
+            a{
+                color: var.$blue-color;
+                transition: 0.2s;
+                &:hover{
+                    color: var.$dark-blue-color;
+                }
+            }
+        }
+    }
+}
